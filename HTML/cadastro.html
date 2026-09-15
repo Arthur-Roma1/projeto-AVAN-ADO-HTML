@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro — Receba Notícias do Flamengo | Flamengo — Paixão Rubro-Negra</title>
+</head>
+<body>
+
+<header>
+    <h1>Flamengo — Paixão Rubro-Negra</h1>
+    <p>Portal acadêmico dedicado ao Clube de Regatas do Flamengo</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="titulos.html">Títulos</a></li>
+            <li><a href="jogadores.html">Jogadores</a></li>
+            <li><a href="zico.html">Zico</a></li>
+            <li><a href="gabigol.html">Gabigol</a></li>
+            <li><a href="contratacoes.html">Contratações</a></li>
+            <li><a href="torcida.html">Torcida</a></li>
+            <li><a href="maracana.html">Maracanã</a></li>
+            <li><a href="cadastro.html">Receber notícias</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Fique por dentro de tudo sobre o Mengão</h2>
+        <p>Preencha o formulário abaixo para receber notícias, resultados e curiosidades sobre o Flamengo diretamente no seu e-mail.</p>
+    </section>
+
+    <section>
+        <h2>Formulário de cadastro</h2>
+
+        <article>
+            <form>
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </p>
+
+                <p>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required placeholder="Digite uma senha">
+                </p>
+
+                <p>
+                    <label for="nascimento">Data de nascimento:</label><br>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </p>
+
+                <p>
+                    <label for="foto">Foto de perfil:</label><br>
+                    <input type="file" id="foto" name="foto">
+                </p>
+
+                <p>
+                    <label for="cor">Cor favorita:</label><br>
+                    <input type="color" id="cor" name="cor" value="#C90101">
+                </p>
+
+                <p>
+                    <label for="paixao">Nível de paixão pelo Flamengo (0 a 10):</label><br>
+                    <input type="range" id="paixao" name="paixao" min="0" max="10" value="10">
+                </p>
+
+                <p>
+                    <label for="jogador">Jogador favorito:</label><br>
+                    <input list="jogadores" id="jogador" name="jogador" placeholder="Digite seu jogador favorito">
+                    <datalist id="jogadores">
+                        <option value="Zico">
+                        <option value="Gabigol">
+                        <option value="Arrascaeta">
+                        <option value="Júnior">
+                        <option value="Adriano">
+                    </datalist>
+                </p>
+
+                <fieldset>
+                    <legend>Conteúdos que deseja receber:</legend>
+
+                    <p>
+                        <input type="checkbox" id="conteudo-noticias" name="conteudo" value="noticias">
+                        <label for="conteudo-noticias">Notícias</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="conteudo-jogos" name="conteudo" value="jogos">
+                        <label for="conteudo-jogos">Jogos</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="conteudo-contratacoes" name="conteudo" value="contratacoes">
+                        <label for="conteudo-contratacoes">Contratações</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="conteudo-titulos" name="conteudo" value="titulos">
+                        <label for="conteudo-titulos">Títulos</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="conteudo-historia" name="conteudo" value="historia">
+                        <label for="conteudo-historia">História</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="conteudo-jogadores" name="conteudo" value="jogadores">
+                        <label for="conteudo-jogadores">Jogadores</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite uma mensagem ou comentário sobre o Flamengo"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </form>
+        </article>
+    </section>
+
+    <aside>
+        <h2>Privacidade</h2>
+        <p>Este formulário faz parte de um projeto acadêmico e não envia dados reais para nenhum servidor.</p>
+    </aside>
+
+</main>
+
+<footer>
+    <p><strong>Flamengo — Paixão Rubro-Negra</strong></p>
+    <p>Projeto acadêmico desenvolvido em HTML5, sem uso de CSS ou JavaScript.</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="jogadores.html">Jogadores</a></li>
+            <li><a href="titulos.html">Títulos</a></li>
+        </ul>
+    </nav>
+
+</footer>
+
+</body>
+</html>
